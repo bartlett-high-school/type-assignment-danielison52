@@ -1,7 +1,24 @@
-/* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
+@font-face {
+    font-family: 'arsenalregular';
+    src: url('../fonts/arsenal-regular-webfont.woff2') format('woff2'),
+         url('../fonts/arsenal-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
-/* Start the CSS*/
+
+
+@font-face {
+    font-family: 'benthamregular';
+    src: url('../fonts/bentham-webfont.woff2') format('woff2'),
+         url('../fonts/bentham-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -22,29 +39,29 @@ body {
 }
 
 h1 {
-
+	font-family: 'arsenalregular', san-serif;
 }
 
 h2 {
-
+    font-family: 'benthamregular', serif;
 }
 
 h3 {
-
+    font-family: 'arsenalregular', san-serif;
 }
 
 h4 {
-
+    font-family: 'benthamregular', serif;
 }
 
 h5 {
-
+    font-family: 'arsenalregular', san-serif;
 }
 
 h6 {
-
+    font-family: 'benthamregular', serif;
 }
 
 p {
-
+   font-family: 'arsenalregular', san-serif;
 }
